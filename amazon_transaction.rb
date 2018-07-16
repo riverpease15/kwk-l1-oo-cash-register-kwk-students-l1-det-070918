@@ -23,7 +23,6 @@ notebooks = 9.99
     elsif answer_purchases == "a and b" || answer_purchases == "b and a"
       
       total_ab = pens + glue_sticks
-      
       puts "That will be $#{total_ab}."
     
     elsif answer_purchases == "a and c" || answer_purchases == "c and a"
@@ -33,23 +32,30 @@ notebooks = 9.99
       
     elsif answer_purchases == "b and c" || answer_purchases == "c and b"
     
-        total_ac = pens + pencils
-      puts "That will be $#{total_ac}"
+      total_bc = glue_sticks + pencils
+      puts "That will be $#{total_bc}"
     
     elsif answer_purchases == "b and d" || answer_purchases == "d and b"
     
+      total_bd = glue_sticks + notebooks
+      puts "That will be $#{total_bd}"
     
     elsif answer_purchases == "c and d" || answer_purchases == "d and c"
     
+      total_cd = pencils + notebooks
+      puts "That will be $#{total_cd}"
     
     elsif answer_purchases == "d"
     
+     puts "That will be $#{notebooks}"
     
     elsif answer_purchases == "c"
     
+      puts "That will be $#{pencils}"
     
     elsif answer_purchases == "b"
     
+      puts "That will be $#{gluesticks}"
     
     else
       puts "Sorry, I don't know what that means."
