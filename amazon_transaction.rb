@@ -19,14 +19,12 @@ notebooks = 9.99
     
     if answer_purchases == "a"
       puts "That will be $#{pens}."
-    end
     
     elsif answer_purchases == "a and b" || answer_purchases == "b and a"
-    end
-    
-    total_ab = pens + glue_sticks
-    
-    puts "That will be $#{total_ab}."
+      
+      total_ab = pens + glue_sticks
+      
+      puts "That will be $#{total_ab}."
     
     elsif answer_purchases == "a and c" || answer_purchases == "c and a"
     
