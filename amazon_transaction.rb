@@ -29,28 +29,29 @@ notebooks = 9.99
     puts "That will be $#{total_ab}."
     
     elsif answer_purchases == "a and c" || answer_purchases == "c and a"
-    end
+    
     
     elsif answer_purchases == "b and c" || answer_purchases == "c and b"
-    end
+    
     
     elsif answer_purchases == "b and d" || answer_purchases == "d and b"
-    end
+    
     
     elsif answer_purchases == "c and d" || answer_purchases == "d and c"
-    end
+    
     
     elsif answer_purchases == "d"
-    end
+    
     
     elsif answer_purchases == "c"
-    end
+    
     
     elsif answer_purchases == "b"
-    end
+    
     
   else
     puts "Sorry, I don't know what that means."
+  end
     
   end
   
