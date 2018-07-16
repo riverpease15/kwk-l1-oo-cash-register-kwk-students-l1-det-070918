@@ -12,6 +12,8 @@ notebooks = 9.99
     b. Glue Sticks - 4 Pack
     c. Pencils - 10 Pack
     d. Notebooks - 3 Pack
+    "
+    
     answer_purchases = gets.chomp.downcase
     
     if answer_purchases == "a"
