@@ -7,16 +7,12 @@ glue_sticks = 4.99
 pencils = 2.99
 notebooks = 9.99
   
-
-  answer_purchases = gets.chomp.downcase
-  
-  def purchases
     puts "What do you want to buy? Select multiple products by typing their letters with a space (ie. 'a and b') Choose up to two products.
     a. Pens - 10 Pack
     b. Glue Sticks - 4 Pack
     c. Pencils - 10 Pack
     d. Notebooks - 3 Pack
-    "
+    answer_purchases = gets.chomp.downcase
     
     if answer_purchases == "a"
       puts "That will be $#{pens}."
@@ -61,9 +57,5 @@ notebooks = 9.99
     else
       puts "Sorry, I don't know what that means."
     end
-    
-  end
   
 end
-
-purchases
