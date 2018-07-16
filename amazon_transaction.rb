@@ -55,20 +55,20 @@ notebooks = 9.99
     elsif answer_purchases == "b"
     
       puts "That will be $#{gluesticks}"
+      
+      puts "But wait! Are you an Amazon employee? Yes or no?"
+  employee = gets.chomp.downcase
+  if employee == "yes"
+  discount = gluesticks*0.2
+  total += discount
+  puts "Great! Your final total is now #{total}"
+
+else
+  puts "Your total is still the same."
     
     else
       puts "Sorry, I don't know what that means."
     end
-    
-puts "But wait! Are you an Amazon employee? Yes or no?"
-employee = gets.chomp.downcase
-if employee == "yes"
-  discount = total*0.2
-  total += discount
-  puts "Great! Your final total is now"
-
-else
-  puts "Your total is still the same."
   
   
 end
