@@ -7,6 +7,7 @@ glue_sticks = 4.99
 pencils = 2.99
 notebooks = 9.99
   
+
   answer_purchases = gets.chomp.downcase
   
   def purchases
@@ -65,3 +66,4 @@ notebooks = 9.99
   
 end
 
+purchases
